@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding of Wasila & Sonny</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+<body class="overflow-hidden font-manrope">
+    <div class="max-w-full lg:w-[480px] mx-auto relative overflow-hidden">
+        <div class="cover bg-lightorange absolute z-[5] inset-0 h-screen lg:w-full w-screen flex items-center justify-center transform opacity-100 transition-transform transition-opacity duration-700 ease-in-out overflow-hidden">
+            <div class="flex items-center flex-col gap-[50px]">
+                <img src="./assets/img/img-ornament1.png" alt="" class="max-w-full w-[35%] h-auto absolute top-0 left-0">
+                <img src="./assets/img/img-ornament2.png" alt="" class="max-w-full w-[60%] h-auto absolute -top-[50px] -right-[50px]">
+                <img src="./assets/img/img-ornament1.png" alt="" class="max-w-full w-[35%] h-auto absolute bottom-0 right-0 rotate-180">
+                <img src="./assets/img/img-ornament2.png" alt="" class="max-w-full w-[60%] h-auto absolute -bottom-[50px] -left-[50px] rotate-180">
+                <div class="relative text-center">
+                    <img src="./assets/img/logo-wedding.png" alt="logo-wedding" class="max-w-full mx-auto w-[70%] h-auto">
+                </div>
+                <button id="openBtn" class="bg-pastelorange text-darkred text-[18px] font-semibold px-6 py-2 rounded-[10px] shadow-lg">
+                    Buka Undangan
+                </button>
+            </div>
+        </div>
+        <div class="main relative">
+            <button class="audioToggle bg-pastelorange rounded-[50%] shadow-lg fixed bottom-[10%] right-[10px] z-[2] w-[50px] h-[50px] flex items-center justify-center">
+                <audio controls autoplay class="hidden">
+                    <source src="./assets/audio/shalawat.mpeg" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <svg width="30" height="30" class="speaker-on" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1788_8370)">
+                    <path d="M0 8.75987H7.06967L17.7049 0.0917969V29.9074L7.06967 21.2393H0V8.75987ZM21.7008 7.34592C23.791 9.43609 24.8565 11.9771 24.8975 14.9689C24.8975 17.8377 23.832 20.2967 21.7008 22.3459L19.5492 20.1328C21.0246 18.6574 21.7623 16.9156 21.7623 14.9074C21.7623 12.8582 21.0246 11.0754 19.5492 9.55905L21.7008 7.34592ZM25.3893 3.71887C28.4631 6.79266 30 10.5017 30 14.8459C30 19.1902 28.4631 22.9197 25.3893 26.0344L23.1148 23.7599C25.5738 21.3418 26.8033 18.3808 26.8033 14.8767C26.8033 11.3726 25.5738 8.39106 23.1148 5.93202L25.3893 3.71887Z" fill="#712519"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_1788_8370">
+                    <rect width="30" height="30" fill="white"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <svg width="30" height="30" class="speaker-off hidden" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M29.6968 17.8804C29.891 18.0753 30 18.3396 30 18.6152C30 18.8908 29.891 19.1551 29.6968 19.3499C29.5027 19.5448 29.2395 19.6543 28.965 19.6543C28.6905 19.6543 28.4272 19.5448 28.2331 19.3499L25.8616 16.9677L23.4901 19.3499C23.296 19.5448 23.0327 19.6543 22.7582 19.6543C22.4837 19.6543 22.2204 19.5448 22.0263 19.3499C21.8322 19.1551 21.7231 18.8908 21.7231 18.6152C21.7231 18.3396 21.8322 18.0753 22.0263 17.8804L24.3991 15.4995L22.0263 13.1186C21.8322 12.9237 21.7231 12.6594 21.7231 12.3838C21.7231 12.1082 21.8322 11.8439 22.0263 11.649C22.2204 11.4541 22.4837 11.3447 22.7582 11.3447C23.0327 11.3447 23.296 11.4541 23.4901 11.649L25.8616 14.0312L28.2331 11.649C28.4272 11.4541 28.6905 11.3447 28.965 11.3447C29.2395 11.3447 29.5027 11.4542 29.6968 11.649C29.891 11.8439 30 12.1082 30 12.3838C30 12.6594 29.891 12.9237 29.6968 13.1186L27.324 15.4995L29.6968 17.8804ZM5.68955 9.26813H2.06893C1.52021 9.26813 0.993973 9.48697 0.605974 9.87651C0.217975 10.266 0 10.7944 0 11.3452V19.6537C0 20.2046 0.217975 20.7329 0.605974 21.1225C0.993973 21.512 1.52021 21.7308 2.06893 21.7308H5.68955C5.82672 21.7308 5.95828 21.6761 6.05528 21.5787C6.15228 21.4814 6.20678 21.3493 6.20678 21.2116V9.78741C6.20678 9.64969 6.15228 9.51761 6.05528 9.42022C5.95828 9.32284 5.82672 9.26813 5.68955 9.26813ZM18.2518 2.23839C18.0707 2.08794 17.8439 2.00391 17.6089 2.00013C17.3739 1.99636 17.1445 2.07306 16.9587 2.21762L8.48001 8.83843C8.41711 8.8864 8.366 8.9482 8.33058 9.01909C8.29517 9.08997 8.27639 9.16806 8.2757 9.24736V21.7516C8.27594 21.8306 8.29411 21.9085 8.32884 21.9793C8.36357 22.0502 8.41395 22.1122 8.47613 22.1605L16.9548 28.7813C17.1191 28.9095 17.318 28.985 17.5256 28.998C17.7332 29.011 17.9398 28.9608 18.1186 28.854C18.2759 28.7558 18.4052 28.6183 18.4938 28.4549C18.5824 28.2916 18.6274 28.1079 18.6242 27.9219V3.06924C18.6261 2.9115 18.5934 2.75527 18.5284 2.61167C18.4634 2.46807 18.3676 2.34062 18.2479 2.23839H18.2518Z" fill="#712519"/>
+                </svg>
+            </button>
+            <div class="page1 w-full h-screen relative bg-no-repeat bg-contain bg-center overflow-hidden" style="background-image: url('./assets/img/bg-dots.png');">
+                <img src="./assets/img/img-grooms-bride.png" alt="" class="absolute bottom-0 left-1/2 transform -translate-x-1/2 ms-[10px] w-[60%] xxs:w-[70%] h-auto">
+                <img src="./assets/img/img-gate.png" alt="" class="w-full h-auto absolute bottom-0 left-0">
+                <div class="page1-content pt-[75px] xxs:pt-[100px] px-[10px]">
+                    <img src="./assets/img/img-bismillah.png" alt="" class="mx-auto mb-[15px] w-[50%] h-auto">
+                    <p class="text-darkred mb-[5px] text-center text-[16px]">
+                        Assalamu'alaikum Warahmatullaahi Wabarakaatuh
+                    </p>
+                    <p class="text-darkred text-center text-[16px]">
+                        Tanpa mengurangi rasa hormat kami mengundang Bapak/ibu/saudara/i untuk menghadiri acara pernikahan kami:
+                    </p>
+                </div>
+            </div>
+            <div class="page2 w-full h-screen relative bg-no-repeat bg-contain bg-center overflow-hidden" style="background-image: url('./assets/img/bg-dots.png');">
+                <img src="./assets/img/img-ornament3.png" alt="" class="h-auto absolute top-0 left-0 right-0 mx-auto" data-aos="fade-down" data-aos-duration="1000">
+                <img src="./assets/img/img-ornament3.png" alt="" class="h-auto absolute bottom-0 left-0 right-0 mx-auto rotate-180" data-aos-anchor="#trigger-oxford" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./assets/img/img-grooms-bride.png" alt="" class="absolute bottom-0 -right-[45%] xxs:-right-1/2 w-[80%] xxs:w-[90%]" data-aos-anchor="#trigger-oxford" data-aos="fade-left" data-aos-duration="1000">
+                <div class="page2-content px-[10px] pt-[100px] xxs:pt-[150px]">
+                    <p class="text-darkred text-[36px] font-greatvibes mb-[15px]" data-aos="fade-right" data-aos-duration="1000">
+                        Sonny Suwandi, SH
+                    </p>
+                    <p class="text-darkred text-[16px] mb-[30px]" data-aos="fade-right" data-aos-duration="1000">
+                        Putra pertama dari Bapak Dadang <br class="xxs:hidden"> Suhanda <br class="hidden xxs:block"> & Ibu Wawat Sutiawati
+                    </p>
+                    <img src="./assets/img/img-shoes-groom.png" alt="" id="trigger-oxford" class="w-[200px] xxs:w-[250px]" data-aos="flip-left" data-aos-duration="1000">
+                </div>
+            </div>
+            <div class="page3 w-full h-screen relative bg-no-repeat bg-contain bg-center overflow-hidden" style="background-image: url('./assets/img/bg-dots.png');">
+                <img src="./assets/img/img-ornament3.png" alt="" class="h-auto absolute top-0 left-0 right-0 mx-auto" data-aos="fade-down" data-aos-duration="1000">
+                <img src="./assets/img/img-ornament3.png" alt="" class="h-auto absolute bottom-0 left-0 right-0 mx-auto rotate-180" data-aos-anchor="#trigger-heels" data-aos="fade-up" data-aos-duration="1000">
+                <img src="./assets/img/img-grooms-bride.png" alt="" class="absolute bottom-0 -left-[35%] xxs:-left-[40%] w-[80%] xxs:w-[90%]" data-aos-anchor="#trigger-heels" data-aos="fade-right" data-aos-duration="1000">
+                <div class="page3-content px-[10px] pt-[100px] xxs:pt-[150px] ms-auto text-right">
+                    <p class="text-darkred text-[32px] xxs:text-[36px] font-greatvibes mb-[15px]" data-aos="fade-left" data-aos-duration="1000">
+                        Wasila Hidayaturrobbaniyah, SPd.
+                    </p>
+                    <p class="text-darkred text-[16px] mb-[30px]" data-aos="fade-left" data-aos-duration="1000">
+                        Putri ke-3 dari Bapak A. Mahmud (alm) & <br> Ibu Kasinih
+                    </p>
+                    <img src="./assets/img/img-shoes-bride.png" alt="" id="trigger-heels" class="w-[200px] xxs:w-[250px] ms-auto" data-aos="flip-left" data-aos-duration="1000">
+                </div>
+            </div>
+            <div class="page4 w-full min-h-screen relative overflow-hidden">
+                <img src="./assets/img/img-ornament4.png" alt="" class="absolute -top-[70px] left-0 right-0 mx-auto w-[90%]">
+                <img src="./assets/img/img-ornament4.png" alt="" class="absolute -bottom-[70px] left-0 right-0 mx-auto w-[90%] rotate-180">
+                <img src="./assets/img/img-ornament5.png" alt="" class="absolute w-[120px] top-0 left-0">
+                <img src="./assets/img/img-ornament5.png" alt="" class="absolute w-[120px] top-0 right-0 rotate-90">
+                <img src="./assets/img/img-ornament5.png" alt="" class="absolute w-[120px] bottom-0 left-0 -rotate-90">
+                <img src="./assets/img/img-ornament5.png" alt="" class="absolute w-[120px] bottom-0 right-0 -rotate-180">
+                
+                <div class="page4-content pb-[50px]">
+                    <p class="text-darkred font-bold font-greatvibes text-[36px] text-center mt-[100px] mb-[10px] relative">
+                        Save The Date
+                    </p>
+                    <div class="card bg-darkred rounded-[10px] shadow-lg w-[90%] max-w-[400px] mx-auto p-[30px] mb-[30px] relative" data-aos="zoom-in" data-aos-duration="1000">
+                        <p class="text-lightorange text-[20px] text-center font-semibold mb-[10px] pb-[10px] border-b border-lightorange">
+                            Akad Nikah
+                        </p>
+                        <div class="flex items-center gap-[5px] text-lightorange text-[16px] mb-[5px]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97933 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V2H8V4H16V2H18V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20Z" class="fill-lightorange"/>
+                            </svg>
+                            Sabtu, 15 November 2025
+                        </div>
+                        <div class="flex items-center gap-[5px] text-lightorange text-[16px] mb-[30px]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20ZM12 2C13.3132 2 14.6136 2.25866 15.8268 2.7612C17.0401 3.26375 18.1425 4.00035 19.0711 4.92893C19.9997 5.85752 20.7362 6.95991 21.2388 8.17317C21.7413 9.38642 22 10.6868 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22C6.47 22 2 17.5 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2ZM12.5 7V12.25L17 14.92L16.25 16.15L11 13V7H12.5Z" class="fill-lightorange"/>
+                            </svg>
+                            09.00 WIB - Selesai
+                        </div>
+
+                        <p class="text-lightorange text-[20px] text-center font-semibold mb-[10px] pb-[10px] border-b border-lightorange">
+                            Resepsi
+                        </p>
+                        <div class="flex items-center gap-[5px] text-lightorange text-[16px] mb-[5px]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 14C7.71667 14 7.47933 13.904 7.288 13.712C7.09667 13.52 7.00067 13.2827 7 13C6.99933 12.7173 7.09533 12.48 7.288 12.288C7.48067 12.096 7.718 12 8 12C8.282 12 8.51967 12.096 8.713 12.288C8.90633 12.48 9.002 12.7173 9 13C8.998 13.2827 8.902 13.5203 8.712 13.713C8.522 13.9057 8.28467 14.0013 8 14ZM12 14C11.7167 14 11.4793 13.904 11.288 13.712C11.0967 13.52 11.0007 13.2827 11 13C10.9993 12.7173 11.0953 12.48 11.288 12.288C11.4807 12.096 11.718 12 12 12C12.282 12 12.5197 12.096 12.713 12.288C12.9063 12.48 13.002 12.7173 13 13C12.998 13.2827 12.902 13.5203 12.712 13.713C12.522 13.9057 12.2847 14.0013 12 14ZM16 14C15.7167 14 15.4793 13.904 15.288 13.712C15.0967 13.52 15.0007 13.2827 15 13C14.9993 12.7173 15.0953 12.48 15.288 12.288C15.4807 12.096 15.718 12 16 12C16.282 12 16.5197 12.096 16.713 12.288C16.9063 12.48 17.002 12.7173 17 13C16.998 13.2827 16.902 13.5203 16.712 13.713C16.522 13.9057 16.2847 14.0013 16 14ZM5 22C4.45 22 3.97933 21.8043 3.588 21.413C3.19667 21.0217 3.00067 20.5507 3 20V6C3 5.45 3.196 4.97933 3.588 4.588C3.98 4.19667 4.45067 4.00067 5 4H6V2H8V4H16V2H18V4H19C19.55 4 20.021 4.196 20.413 4.588C20.805 4.98 21.0007 5.45067 21 6V20C21 20.55 20.8043 21.021 20.413 21.413C20.0217 21.805 19.5507 22.0007 19 22H5ZM5 20H19V10H5V20Z" class="fill-lightorange"/>
+                            </svg>
+                            Sabtu, 15 November 2025
+                        </div>
+                        <div class="flex items-center gap-[5px] text-lightorange text-[16px] mb-[20px]">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 20C14.1217 20 16.1566 19.1571 17.6569 17.6569C19.1571 16.1566 20 14.1217 20 12C20 9.87827 19.1571 7.84344 17.6569 6.34315C16.1566 4.84285 14.1217 4 12 4C9.87827 4 7.84344 4.84285 6.34315 6.34315C4.84285 7.84344 4 9.87827 4 12C4 14.1217 4.84285 16.1566 6.34315 17.6569C7.84344 19.1571 9.87827 20 12 20ZM12 2C13.3132 2 14.6136 2.25866 15.8268 2.7612C17.0401 3.26375 18.1425 4.00035 19.0711 4.92893C19.9997 5.85752 20.7362 6.95991 21.2388 8.17317C21.7413 9.38642 22 10.6868 22 12C22 14.6522 20.9464 17.1957 19.0711 19.0711C17.1957 20.9464 14.6522 22 12 22C6.47 22 2 17.5 2 12C2 9.34784 3.05357 6.8043 4.92893 4.92893C6.8043 3.05357 9.34784 2 12 2ZM12.5 7V12.25L17 14.92L16.25 16.15L11 13V7H12.5Z" class="fill-lightorange"/>
+                            </svg>
+                            12.00 WIB - Selesai
+                        </div>
+
+                        <div class="card bg-lightorange p-[20px] rounded-[10px]" data-aos="fade-down-right" data-aos-duration="1000">
+                            <p class="text-darkred text-[18px] text-center font-semibold mb-[10px] pb-[10px] border-b border-darkred">
+                                ALAMAT
+                            </p>
+                            <p class="text-darkred text-[14px] text-center mb-[30px]">
+                                Jl. Taruna Jaya, GG. Mantap, RT.006/RW.013 
+                                NO. 60, Kelurahan Cibubur - Kecamatan Ciracas, Jakarta Timur. Tanggal 14 November 2025
+                            </p>
+                            <a href="https://www.google.com/maps?q=-6.0573033,106.053755&z=17&hl=en" class="bg-darkred text-lightorange text-[18px] font-semibold px-6 py-2 rounded-[10px] shadow-lg mx-auto block w-max">
+                                Buka Google Maps
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page5 w-full min-h-screen relative overflow-hidden bg-darkred">
+                <div class="flower flex justify-center -mt-[50px]" id="flower" data-aos="fade-down" data-aos-duration="1000"></div>
+                <div class="page5-content px-[10px] -mt-[20px] text-center text-lightorange">
+                    <p class="text-[18px] mb-[10px]">
+                        "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan untukmu istri-istri dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang. Sesungguhnya pada yang demikian itu benar-benar terdapat tanda-tanda bagi kaum yang berpikir."
+                    </p>
+                    <p class="text-[16px] italic mb-[30px]">
+                        (QS. Ar-Rum: 21)
+                    </p>
+                </div>
+            </div>
+            <div class="cover bg-lightorange h-screen lg:w-full w-screen flex items-center justify-center overflow-hidden relative">
+                <div class="flex items-center flex-col gap-[50px]">
+                    <img src="./assets/img/img-ornament1.png" alt="" class="max-w-full w-[35%] h-auto absolute top-0 left-0">
+                    <img src="./assets/img/img-ornament2.png" alt="" class="max-w-full w-[60%] h-auto absolute -top-[50px] -right-[50px]">
+                    <img src="./assets/img/img-ornament1.png" alt="" class="max-w-full w-[35%] h-auto absolute bottom-0 right-0 rotate-180">
+                    <img src="./assets/img/img-ornament2.png" alt="" class="max-w-full w-[60%] h-auto absolute -bottom-[50px] -left-[50px] rotate-180">
+                    <p class="text-darkred font-bold font-greatvibes text-[36px] text-center relative">
+                        Terimakasih
+                    </p>
+                    <div class="relative text-center">
+                        <img src="./assets/img/logo-wedding.png" alt="logo-wedding" class="max-w-full mx-auto w-[70%] h-auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./assets/js/lottie.min.js"></script>
+<script>
+  AOS.init();
+</script>
+<script>
+  // Prevent browser from restoring scroll position after refresh/back
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+
+  // Ensure we start scrolled to top and cover is visible on initial load
+  window.addEventListener('DOMContentLoaded', () => {
+    // Force to top (some browsers need a tiny timeout to override restore)
+    window.scrollTo(0, 0);
+    setTimeout(() => window.scrollTo(0, 0), 10);
+
+    // If cover still exists and hasn't been dismissed, make sure it's visible
+    const cover = document.querySelector('.cover');
+    if (cover && cover.style.display !== 'none' && !cover.classList.contains('-translate-y-full')) {
+      // ensure it's on top and not accidentally hidden
+      cover.style.display = '';
+      cover.classList.remove('opacity-0', 'pointer-events-none', '-translate-y-full');
+      if (!cover.classList.contains('translate-y-0')) cover.classList.add('translate-y-0');
+
+      // keep body locked until opened
+      document.body.classList.add('overflow-hidden');
+    }
+  });
+</script>
+<script>
+    (function () {
+        const openBtn = document.getElementById('openBtn');
+        const cover = document.querySelector('.cover');
+        const audioToggleBtn = document.querySelector('.audioToggle');
+        const audioEl = audioToggleBtn ? audioToggleBtn.querySelector('audio') : null;
+        const speakerOnSvg = audioToggleBtn ? audioToggleBtn.querySelector('.speaker-on') : null;
+        const speakerOffSvg = audioToggleBtn ? audioToggleBtn.querySelector('.speaker-off') : null;
+
+        // Safety checks
+        if (!openBtn || !cover) return;
+
+        // Ensure initial transform classes exist so replace() works
+        // (If your HTML already has translate-y-0, this is unnecessary but safe.)
+        if (!cover.classList.contains('translate-y-0') && !cover.classList.contains('-translate-y-full')) {
+            cover.classList.add('translate-y-0');
+        }
+
+        // Helper to update audio toggle UI (icons) according to playing state
+        function updateAudioIcon(isPlaying) {
+            if (!speakerOnSvg || !speakerOffSvg) return;
+            if (isPlaying) {
+            speakerOnSvg.classList.remove('hidden');
+            speakerOffSvg.classList.add('hidden');
+            } else {
+            speakerOnSvg.classList.add('hidden');
+            speakerOffSvg.classList.remove('hidden');
+            }
+        }
+
+        // Open button behavior: animate cover and start audio
+        openBtn.addEventListener('click', async () => {
+            // disable button to prevent repeated clicks
+            openBtn.disabled = true;
+
+            // replace translate-y-0 with -translate-y-full (prevents class conflict)
+            if (cover.classList.contains('translate-y-0')) {
+            cover.classList.replace('translate-y-0', '-translate-y-full');
+            } else {
+            cover.classList.add('-translate-y-full');
+            }
+            cover.classList.add('opacity-0', 'pointer-events-none');
+
+            // allow scrolling again
+            document.body.classList.remove('overflow-hidden');
+
+            // Try to play audio (user gesture from this click should allow it)
+            if (audioEl) {
+            try {
+                // unhide controls if you want (you currently have controls attr and class hidden)
+                audioEl.play().catch((err) => {
+                // play may fail on some browsers if prevented; ignore for now
+                console.warn('audio play failed:', err);
+                });
+                // update icon to playing
+                updateAudioIcon(true);
+            } catch (err) {
+                console.warn('audio play error', err);
+            }
+            }
+
+            // hide cover from layout after opacity transition ends
+            const onTransitionEnd = (e) => {
+            if (e.propertyName === 'opacity') {
+                cover.style.display = 'none';
+                cover.removeEventListener('transitionend', onTransitionEnd);
+            }
+            };
+            cover.addEventListener('transitionend', onTransitionEnd);
+        });
+
+        // Audio toggle button behavior: pause/play and swap icons
+        if (audioToggleBtn && audioEl) {
+            // Prevent the audio button click from propagating to other layers
+            audioToggleBtn.addEventListener('click', (ev) => {
+            ev.stopPropagation();
+
+            // If audio is currently paused → play, else pause
+            if (audioEl.paused) {
+                audioEl.play().then(() => {
+                updateAudioIcon(true);
+                }).catch((err) => {
+                console.warn('audio play failed:', err);
+                });
+            } else {
+                audioEl.pause();
+                updateAudioIcon(false);
+            }
+            });
+
+            // Keep UI in sync if audio ends or is paused/played by other means
+            audioEl.addEventListener('play', () => updateAudioIcon(true));
+            audioEl.addEventListener('pause', () => updateAudioIcon(false));
+            audioEl.addEventListener('ended', () => updateAudioIcon(false));
+
+            // set initial icon state (in case page loaded and audio is autoplay blocked)
+            updateAudioIcon(!audioEl.paused);
+        }
+    })();
+</script>
+<script>
+    let flower = {
+        container: document.getElementsByClassName('flower')[0],
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: 'assets/json/flower.json',
+        name: 'myAnimation',
+    };
+    var playFlower;
+    playFlower = bodymovin.loadAnimation(flower);
+</script>
+</body>
+</html>
